@@ -16,13 +16,13 @@ Creator : @darkmakerofc , @mr-nima-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94715166712",
-  SUDO_NUMBERS : "94715166712,94719574492",
-  OWNER_NAME: "『 𝙼𝚁 𝙽𝙸𝙼𝙰 』",
+  OWNER_NUMBER: "94701389614",
+  SUDO_NUMBERS : "94722277329,94727461505",
+  OWNER_NAME: "『 𝙼𝚁 𝚂𝙷𝙴𝙽 』",
   BOT_NAME : "ＺＵＳＹＣＯ",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
-    ALIVE: 'https://i.ibb.co/YTWznr9/ZUSYCO-ALIVE-IMAGE-LOWQ.jpg',
+    ALIVE: 'https://telegra.ph/file/b120e9c76fcecb4604471.jpg',
     WELCOME: 'https://i.ibb.co/PzhpBV7/WELCOME-IMAGE-LOWQ.jpg',
     GOODBYE: 'https://i.ibb.co/t8hKpcM/GOODBYE-IMAGE-LOWQ.jpg'
   },
@@ -36,21 +36,21 @@ module.exports = {
   WORK_MODE : "onlygroups",
   WORK_MODE_MESSAGE_SEND : false,
   CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴢᴜꜱʏᴄᴏ ᴍᴅ ʙᴏᴛ',
-  STICKER_PACK : '[ ZUSYCO ]',
+  STICKER_PACK : '[ 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 ]',
   BAD_WORDS : 'fuck,pussy',
   ANTI_BAD : false,
-  ANTI_LINKS : 'chat.whatsapp.com',
-  ANTI_LINK : false,
+  ANTI_LINKS : 'chat.whatsapp.com,youtu.be,youtube.com,wa.me,vt.tiktok.com,tiktok.com,fb.watch,fb.com,whatsapp.me',
+  ANTI_LINK : true,
   ANTI_LINK_KICK : false,
-  MAX_SIZE : 100,
+  MAX_SIZE : 500,
   MOROCCO_NUMBERS : {
         BLOCK : false,
         NOT_WORKING : false,
   },
   READ : {
-     ALL_MESSAGES : true,
+     ALL_MESSAGES : false,
      ONLY_COMMANDS : false,
-     STATUS : false,
+     STATUS : true,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
